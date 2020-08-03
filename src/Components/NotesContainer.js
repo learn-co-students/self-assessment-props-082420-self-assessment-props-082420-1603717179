@@ -1,14 +1,13 @@
 import React from 'react'
 
-function NotesContainer() {
+class NotesContainer extends React.Component {
 
     apiResponse = () => {
         return ["First Note", "Second Note", "Third Note", "Fourth Note"]
     }
 
-    return (
-        <ul>
-            {/* render notes here */}
-        </ul>
+    return(
+        <ul></ul >
     )
+
 }

@@ -13,6 +13,7 @@
 - Header should append the value of its "header" prop to the DOM
 
 - You are also provided a `NotesContainer` which is responsible for rendering multiple `Note` components
-- You will have to create the `Note` component yourself
-- The `NotesContainer` has a `apiResponse` method that returns an array of notes
+- The `NotesContainer` component has an `apiResponse` method that returns an array of notes
 - Each `Note` component should be able to access the `content` key inside of its props and print the value of the `content` key to the DOM as a `li` tag
+
+- The `NotesContainer` should be rendered underneath the `Header` on the DOM
