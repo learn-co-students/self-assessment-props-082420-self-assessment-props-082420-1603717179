@@ -1,5 +1,13 @@
 # react-props-practice1
 
+## Instructions:
+
+- Fork and Clone this lab and add your instructor as a collaborator. Then read the below deliverables and make all necessary changes to the app to get it to work. 
+
+- There are no learn tests for this project
+
+## Deliverables:
+
 - You are provided a `Header` component that is rendered inside of `App`
 - `Header` should have a key called "header", inside of its `props`, that evaluates to a string of your choice
 - Header should append the value of its "header" prop to the DOM
