@@ -1,8 +1,17 @@
 import React from "react";
 
 class Header extends React.Component {
-  render() {
-    return <h1>{/* Insert string here */}</h1>;
+
+  header = () => {
+    return this.props.header
+  }
+  render(){
+    // console.log(this.props)
+    return (
+      <div>
+        <h1>{this.header()}</h1>
+      </div>
+    )
   }
 }
 
