@@ -4,7 +4,12 @@ import Header from './Components/Header'
 
 class App extends Component {
   render() {
-    return <header />
+    return (
+    <div>
+      <Header header={}/>
+      <NotesContainer />
+      </div>
+    )
   }
 }
 

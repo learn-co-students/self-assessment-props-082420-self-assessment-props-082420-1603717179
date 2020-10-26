@@ -6,8 +6,15 @@ class NotesContainer extends React.Component {
         return ["First Note", "Second Note", "Third Note", "Fourth Note"]
     }
 
+    notes = () => {
+        return this.apiResponse 
+        // I do not remember what would come after this but something to do with each note content.
+    }
+
     return(
-        <ul></ul >
+        <ul>
+        notes()
+        </ul >
     )
 
 }
