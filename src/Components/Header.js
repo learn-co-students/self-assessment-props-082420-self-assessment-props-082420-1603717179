@@ -2,7 +2,11 @@ import React from "react";
 
 class Header extends React.Component {
   render() {
-    return <h1>{/* Insert string here */}</h1>;
+    return (
+      <div className = "header" id="header">
+        <h1>{`Lorem ipsem`}</h1>
+      </div>
+    )
   }
 }
 
