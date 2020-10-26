@@ -1,4 +1,5 @@
 import React from 'react'
+import Note from 'Note.js'
 
 class NotesContainer extends React.Component {
 
@@ -7,7 +8,9 @@ class NotesContainer extends React.Component {
     }
 
     return(
-        <ul></ul >
+        <ul>
+       return <Note />
+        </ul >
     )
 
 }
