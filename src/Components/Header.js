@@ -1,8 +1,17 @@
 import React from "react";
 
 class Header extends React.Component {
+
+  header = () => {
+    return "Some string"
+  }
+
   render() {
-    return <h1>{/* Insert string here */}</h1>;
+    return (
+    <div>
+      <h1>{this.header()}</h1>
+    </div>
+    );
   }
 }
 
