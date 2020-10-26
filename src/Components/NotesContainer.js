@@ -10,10 +10,10 @@ class NotesContainer extends React.Component {
     render() {
     return(
         <ul>
-            {apiResponse.map(Note(x))} 
+            {this.apiResponse(Note)} 
             
         </ul >
     )
     }
 }
-export {NotesContainer}
+export default NotesContainer

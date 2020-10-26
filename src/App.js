@@ -5,11 +5,11 @@ import  {NotesContainer} from "./Components/NotesContainer";
 
 class App extends Component {
   render() {
-    return (<Header/>
-      <NotesContainer/>)
+    return <Header/>
       
       
-  }
+      
+  
 }
 
 export default App;

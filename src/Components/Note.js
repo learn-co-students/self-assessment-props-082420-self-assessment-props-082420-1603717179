@@ -6,4 +6,4 @@ function Note() {
     return <li>{props.content}</li>
 }
 
-export {Note}
+export default Note
