@@ -3,11 +3,22 @@ import React from 'react'
 class NotesContainer extends React.Component {
 
     apiResponse = () => {
-        return ["First Note", "Second Note", "Third Note", "Fourth Note"]
+        let array = ["First Note", "Second Note", "Third Note", "Fourth Note"]
+       
+
+
     }
+   
 
     return(
-        <ul></ul >
+       <div>
+        <ul>
+        <li>{props.li}</li>
+        </ul>
+    </div>
+        
     )
 
 }
+
+// export default NotesContainer
