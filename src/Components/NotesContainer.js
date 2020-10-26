@@ -6,16 +6,17 @@ class NotesContainer extends React.Component {
     apiResponse = () => {
         return ["First Note", "Second Note", "Third Note", "Fourth Note"]
     }
+
+    renderNotes = () => {
+        return this.apiResponse().map( note => <Note key={note} content={note} />)
+    }
     render(){
-        for( let i of this.apiResponse() )
-        // for(let i = 0; i < this.apiResponse().length; i++)
-        {
-                return(
-                    // <ul>
-                        <Note content={i} />
-                    // </ul >
-                )  
-        }
+        return(
+            <ul>
+
+                {this.renderNotes()}
+            </ul>
+        )
     }
 }
 

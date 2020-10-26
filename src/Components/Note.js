@@ -1,19 +1,14 @@
+// import React, { Component } from "react";
 import React from 'react'
-import { render } from 'react-dom';
 
 
-function Note() {
-    // render(){
-
-        return (
-            <li>
-                different words
-                {this.props.content}
-            </li>
-        )
-    // }
-
-    
+function Note(props)  {
+    return (
+        <li>
+            {/* different words */}
+            {props.content}
+        </li>
+    )  
 }
 
 export default Note;
