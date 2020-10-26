@@ -1,24 +1,27 @@
 import React from 'react'
+import Note from './Note.js'
+
 
 class NotesContainer extends React.Component {
 
     apiResponse = () => {
-        let array = ["First Note", "Second Note", "Third Note", "Fourth Note"]
-       
-
+        return ["First Note", "Second Note", "Third Note", "Fourth Note"]
+    }
+    
+    renderApi = () =>{
+        
+        return this.apiResponse().map(ap => <Note content={ap}/>)
+        
 
     }
-   
-
+  render(){
     return(
-       <div>
-        <ul>
-        <li>{props.li}</li>
-        </ul>
-    </div>
-        
+    <ul>{this.renderApi()}</ul >
     )
+  }
+
 
 }
 
-// export default NotesContainer
+export default NotesContainer
+
