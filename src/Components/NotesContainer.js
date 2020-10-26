@@ -1,4 +1,5 @@
 import React from 'react'
+import Note from './Note'
 
 class NotesContainer extends React.Component {
 
@@ -6,8 +7,17 @@ class NotesContainer extends React.Component {
         return ["First Note", "Second Note", "Third Note", "Fourth Note"]
     }
 
-    return(
-        <ul></ul >
-    )
+    createNotes = () => {
+        return this.apiResponse().map(note => <Note content={note} />)
+    }
 
+    render(){
+        return(
+        <ul>
+            {this.createNotes()}
+        </ul>
+        )
+    }
 }
+
+export default NotesContainer
