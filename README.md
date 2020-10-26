@@ -2,7 +2,7 @@
 
 ## Instructions:
 
-- Fork and Clone this lab and add your instructor as a collaborator. Then read the below deliverables and make all necessary changes to the app to get it to work. 
+- Clone this lab and add your instructor as a collaborator. Then read the below deliverables and make all necessary changes to the app to get it to work. 
 
 - There are no learn tests for this project
 
