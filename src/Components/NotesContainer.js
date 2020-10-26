@@ -15,7 +15,7 @@ class NotesContainer extends React.Component {
         
         return (
             
-            <ul>{this.myNotes}</ul>
+            <ul>{this.myNotes()}</ul>
             )
         }
     }
