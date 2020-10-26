@@ -1,7 +1,7 @@
-import React from 'react'
+import React, {Component} from 'react'
 import Note from './Note'
 
-class NotesContainer extends React.Component {
+class NotesContainer extends Component {
 
   apiResponse = () => {
       return ["First Note", "Second Note", "Third Note", "Fourth Note"]
